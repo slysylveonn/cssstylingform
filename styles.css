@@ -1,0 +1,77 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(102, 152, 244); 
+    margin: 0 ;
+    padding: 20px;
+    }
+    
+    form{
+    background-color: rgb(225, 232, 235);
+    padding: 20px;
+    border: 3px dottrgb(93, 37, 183)ddd;
+    width: 700px;
+    margin: 0 auto;
+    opacity: 0.8;
+    border-radius: 15px;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+    
+    }
+    p{
+        text-align: center;
+    }
+    label{
+        font-weight: 600;
+        line-height: 3
+    }
+    
+    input[type="text"], input[type="email"], input[type="username"], input[type="password"]{
+        
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #acb4c2;
+        border-radius: 2%;
+        box-sizing: border-box;
+    }
+    footer{
+
+         font-size: x-small;
+         font: arial;
+         text-align: right;
+        }
+        
+    
+    input[type="submit"],[type="reset"]{
+        
+        background-color: rgb(214, 111, 246);
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor:crosshair;
+        width: 40%;
+        
+    }
+    input[type="submit"]:hover,[type="reset"]:hover{
+        background-color: blueviolet;
+    
+    }
+
+    div{
+
+    display: flex;
+    flex: 100px;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+
+
+    }
+   
+
